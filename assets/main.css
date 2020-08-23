@@ -1,0 +1,14 @@
+.page-enter-active {
+  transition: opacity 0.3s;
+}
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.dash-nav-active {
+  background-color: rgb(105, 190, 40, 0.33) !important;
+}
